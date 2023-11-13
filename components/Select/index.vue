@@ -48,7 +48,7 @@
 div.relative(ref="select")
     button.rounded-3xl.bg-white.px-5.border-2.transition.w-full.text-left.border-white(class="py-2.5 focus:border-violet-500 hover:border-violet-500", @click="animateSelectOpening('open')")
         .flex.gap-2 
-            p.flex-1.text-sm.text-slate-500.font-medium Activity
+            p.flex-1.text-sm.text-slate-500.font-medium Activity {{ isOpen }}
             .flex-none
                 div(ref="icon")
                     vsx-icon.text-violet-500(iconName="ArrowCircleDown", size="20")
