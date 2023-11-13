@@ -124,8 +124,12 @@ section.bg-slate-200.min-h-screen
     .container.mx-auto.px-2.py-8
         //-
         .grid.gap-4.grid-cols-12
-            .col-span-12
-                Post
+            .col-span-2    
+                Select
+            .col-span-2 
+                Button
+                //-Post
+            .col-span-10
             .col-span-4(v-for="i in 3") 
                 Card
                     .grid.gap-2
