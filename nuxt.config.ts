@@ -2,7 +2,7 @@
 import svgLoader from 'vite-svg-loader'
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/global.css'],
+  css: ['@/assets/css/global.css'],
   modules: ['@nuxtjs/tailwindcss','@hypernym/nuxt-gsap', '@vueuse/nuxt', 'nuxt-icon'],
   gsap: {
     extraPlugins: {
