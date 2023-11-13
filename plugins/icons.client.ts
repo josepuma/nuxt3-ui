@@ -1,5 +1,4 @@
-/*import { VsxIcon } from "vue-iconsax"
+/*import { VsxIcon } from "vue-iconsax"*/
 export default defineNuxtPlugin((nuxtApp) => {
-    nuxtApp.vueApp.component("vsx-icon", VsxIcon)
+    //nuxtApp.vueApp.component("vsx-icon", VsxIcon)
 })
-*/
