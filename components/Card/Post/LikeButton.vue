@@ -54,7 +54,7 @@
 <template lang="pug">
 span(@click="like")
     div.hidden(ref="heartLikedRef")
-        Icon.stroke-red-500(name="heart")
+        UIcon.stroke-red-500(name="heart")
     div(ref="heartRef")
-        Icon.stroke-slate-500(name="heart")
+        UIcon.stroke-slate-500(name="heart")
 </template>

@@ -51,7 +51,7 @@ div.relative(ref="select")
             p.flex-1.text-sm.text-slate-500.font-medium Activity {{ isOpen }}
             .flex-none
                 div(ref="icon")
-                    Icon.stroke-violet-500(name="arrow-circle-down")
+                    UIcon.stroke-violet-500(name="arrow-circle-down")
     .rounded-2xl.bg-white.shadow-md.py-4.absolute.w-full.hidden(ref="selectContainer", class="z-10")
         ul.font-medium.text-sm.text-slate-600.grid
             li.px-4.py-2.transition(class="hover:bg-violet-500 hover:text-white") Travel
