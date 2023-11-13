@@ -143,7 +143,7 @@ section.bg-slate-200.min-h-screen
                                         p.text-sm.text-slate-400.font-medium @arminhmhd - 27 min ago
                             .flex-none 
                                 button 
-                                    vsx-icon.text-slate-500(iconName="MoreCircle", size="20")
+                                    Icon.stroke-slate-500(name="more", size="20")
                         img.w-full.h-64.object-cover.rounded-2xl(src="https://images.unsplash.com/photo-1597072100548-829878230270?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTcwfDI0NzQ5OTJ8fGVufDB8fHx8fA%3D%3D&w=500")
                         p.text-slate-700.text-sm While trying to make something fun in our side there's something we should be trying over there instead of making people to make it live.
                         .flex.gap-4.items-center
@@ -152,10 +152,10 @@ section.bg-slate-200.min-h-screen
                                     CardPostLikeButton
                                     p.text-slate-500.text-sm 2
                                 button.flex.gap-2.items-center
-                                    vsx-icon.text-slate-500(iconName="Message", size="20")
+                                    Icon.stroke-slate-500(name="message", size="20")
                                     p.text-slate-500.text-sm 25
                                 button
-                                    vsx-icon.text-slate-500(iconName="Send2", size="20")
+                                    Icon.stroke-slate-500(name="send-2", size="20")
                             .flex-none 
                                 Button
                         .bg-gray-100.my-2(class="h-[1px]")

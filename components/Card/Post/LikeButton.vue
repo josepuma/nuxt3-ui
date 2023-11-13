@@ -54,7 +54,7 @@
 <template lang="pug">
 span(@click="like")
     div.hidden(ref="heartLikedRef")
-        vsx-icon.text-red-500(iconName="Heart",  size="20",type="bold")
+        Icon.stroke-red-500(name="heart")
     div(ref="heartRef")
-        vsx-icon.text-slate-500(iconName="Heart", size="20")
+        Icon.stroke-slate-500(name="heart")
 </template>
