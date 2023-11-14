@@ -23,12 +23,12 @@
                     .flex.gap-2.items-center
                         img.flex-none.w-10.h-10.object-cover.rounded-full(src="https://images.unsplash.com/photo-1570451488142-71d08e1511e3?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG1pbmltYWwlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D&w=500")
                         .flex-1
-                            p.font-medium.text-slate-800.text-sm UIconly Pro
+                            p.font-medium.text-slate-800.text-sm //UIconly Pro
                             p.font-medium.text-slate-500.text-sm iconly.pro
                 td.px-2 
                     span.text-green-600.font-medium.text-sm.bg-green-100.rounded-3xl.px-5(class="py-1.5") Done
                 td.px-2 
-                    p.font-medium.text-slate-800.text-sm UIcon Design
+                    p.font-medium.text-slate-800.text-sm //UIcon Design
                     p.font-medium.text-slate-500.text-sm Design icons in various styles
                 td.px-2
                     .flex.-space-x-1.overflow-hidden
