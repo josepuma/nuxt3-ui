@@ -2,7 +2,7 @@
   "name": "@josepuma/ui-kit",
   "private": false,
   "main": "./nuxt.config.ts",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
